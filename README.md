@@ -73,4 +73,34 @@ Non-functional requirements describe *how the system should perform*. They defin
 - **Reliability:** The system should have 99.9% uptime and recover quickly in case of system failures.  
 
 
+## Use Case Diagrams
 
+**What are Use Case Diagrams?**  
+Use case diagrams are UML visuals that show how **actors** (users or external systems) interact with the software to achieve goals (**use cases**). They help teams quickly understand who uses the system and what they can do with it.
+
+**Benefits**
+- Provide a high-level, shared view of system functionality for all stakeholders.
+- Help uncover missing or overlapping requirements early.
+- Serve as a conversation aid during analysis, design, and testing.
+- Clarify system boundaries and external dependencies.
+
+**Booking System – Use Case Diagram**  
+Actors:
+- **Guest**
+- **Registered User**
+- **Admin**
+- **Payment Gateway** (external system)
+
+Key Use Cases:
+- **Search Properties**
+- **Filter/Sort Results**
+- **View Property Details**
+- **Register Account**
+- **Login**
+- **Book Property**
+- **Manage Bookings**
+- **List/Manage Listings** (Admin)
+- **Process Payment** (via Payment Gateway)
+
+**Diagram (PNG):**  
+![Booking System Use Case Diagram](alx-booking-uc.png)
